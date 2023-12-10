@@ -1,7 +1,7 @@
 import re
 from random import randint
 
-import numpy as np
+import numpy  as np
 
 print("Comienza el juego:")
 salida = False
