@@ -16,7 +16,6 @@ class MapGrid:
                     print(" # ", end=" ")
                 elif i == self.playerh and j == self.playerw:
                     print(" $ ", end=" ")
-
                 elif i == self.height - 1 and j == self.width - 1:
                     print(" > ", end=" ")
                 else:
